@@ -1,0 +1,6 @@
+export TLATOOLS_JAR=$HOME/bin/tla2tools.jar
+
+alias sany='java -XX:+IgnoreUnrecognizedVMOptions -XX:+UseParallelGC -cp $TLATOOLS_JAR tla2sany.SANY'
+alias pcal='java -XX:+IgnoreUnrecognizedVMOptions -XX:+UseParallelGC -cp $TLATOOLS_JAR pcal.trans'
+alias tlatex='java -XX:+IgnoreUnrecognizedVMOptions -XX:+UseParallelGC -cp $TLATOOLS_JAR tla2tex.TLA'
+alias tlc='java -XX:+IgnoreUnrecognizedVMOptions -XX:+UseParallelGC -cp $TLATOOLS_JAR tlc2.TLC'
